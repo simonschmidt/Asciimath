@@ -3,9 +3,12 @@ Asciimath
 
 Converts ascii math to utf8
 ##Examples
-        asciimath '\int f_1(x)f_2(x)d\mu') ->  '∫ f₁(x)f₂(x)dμ'
-        asciimath 'cos(\pi) = -1'          ->  'cos(π) = -1'
-        asciimath 'a^\\alpha = \\tau'      ->  'aᵅ = τ'
+        $ asciimath '\int f_1(x)f_2(x)d\mu'
+        ∫ f₁(x)f₂(x)dμ
+        $ asciimath 'cos(\pi) = -1'
+        'cos(π) = -1'
+        $ asciimath 'a^\\alpha = \\tau'
+        'aᵅ = τ'
 
 ##UTF8-limitations
         very few greek symbols are possible to sup and subscript
