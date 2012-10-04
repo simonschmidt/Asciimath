@@ -2,7 +2,6 @@
 # coding: utf-8
 import re
 import sys
-import getopt
 
 sup= u"ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ᵅ ᵝ ᵞ ᵟ ᵋ ᶿ ᶥ ᶲ ᵠ ᵡ".split(' ')
 supd=u"a b c d e f g h i j k l m n o p r s t u v w x y z A B D E G H I J K L M N O P R T U V W 0 1 2 3 4 5 6 7 8 9 + - = ( ) α β γ δ ε θ ι Φ φ χ".split(' ')
