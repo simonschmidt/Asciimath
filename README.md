@@ -3,11 +3,11 @@ Asciimath
 
 Converts ascii math to utf8
 ##Examples
-        $ asciimath '\int f_1(x)f_2(x)d\mu'
-        ∫ f₁(x)f₂(x)dμ
+        $ asciimath '\intf_1(x)f_2(x)d\mu'
+        ∫f₁(x)f₂(x)dμ
         $ asciimath 'cos(\pi) = -1'
         'cos(π) = -1'
-        $ asciimath 'a^\\alpha = \\tau'
+        $ asciimath 'a^\alpha = \tau'
         'aᵅ = τ'
 
 ##UTF8-limitations
@@ -24,8 +24,8 @@ Converts ascii math to utf8
         ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ᵅ ᵝ ᵞ ᵟ ᵋ ᶿ ᶥ ᶲ ᵠ ᵡ
 
 ##Symbols
-        greek letters:       \\alpha  etc
+        greek letters:       \alpha  etc
         superscript letter:  ^
         subscript letter:    _
-        math symbols:        \\int \\sum \\prod \\in \\exist \\forall
-                                 \\nin \\perp \\prop ...
+        math symbols:        \int \sum \prod \in \exist \forall
+                                 \nin \perp \prop ...
