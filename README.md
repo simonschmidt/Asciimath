@@ -3,16 +3,16 @@
 Convert plain-text math to unicode
 
 #examples:
-    $ asciimath '\\intf_1(x)f_2(x)d\\mu'
+    $ asciimath '\intf_1(x)f_2(x)d\mu'
     ∫f₁(x)f₂(x)dμ
 
-    $ asciimath 'cos(\\pi) = -1'
+    $ asciimath 'cos(\pi) = -1'
     cos(π) = -1
 
-    $ asciimath 'q\\in\bbB \\right q\\in\\bbR'
+    $ asciimath 'q\in\bbB \right q\in\bbR'
     q∈ℚ ⇒ q∈ℝ
 
-    $ asciimath 'a^\\alpha = \\tau'
+    $ asciimath 'a^\alpha = \tau'
     aᵅ = τ
 
     $ asciimath -a
